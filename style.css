@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    padding: 40px 0;
+    box-shadow: 0 0 20px #0ff;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #FFD700;
+}
+
+nav a {
+    margin: 0 20px;
+    font-size: 1.5rem;
+    color: #00ffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+
+section {
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 25px #ff0;
+}
+
+section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ADFF2F;
+}
+
+section p {
+    font-size: 1.6rem;
+}
+
+footer {
+    background: #222;
+    padding: 30px;
+    font-size: 1.2rem;
+    color: #aaa;
+    box-shadow: 0 -5px 15px #0ff;
+}
